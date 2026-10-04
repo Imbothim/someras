@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# User-supplied tools (downloaded separately)
+tools/*
+!tools/.gitkeep
+
+# Runtime output
+*.csv
+journal-*.json
+ab-results.json
